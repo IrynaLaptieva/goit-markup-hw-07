@@ -1,0 +1,91 @@
+.list {
+  display: flex;
+}
+
+.work-thumb {
+  position: relative;
+}
+
+.work-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  bottom: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--primary-light-color);
+}
+
+.list-work {
+  width: 370px;
+  margin-right: 30px;
+}
+
+.benefits-container {
+  width: 270px;
+  height: 120px;
+  box-sizing: border-box;
+  background-color: var(--bgc-team-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefits-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--bgc-team-color);
+}
+
+.section-title {
+  font-weight: 700;
+  line-height: 1.43;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.section .paragraph {
+  color: var(--paragraph-text-color);
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.section.work {
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.list-work:nth-child(3n) {
+  margin-right: 0;
+}
+
+.work,
+.team-title,
+.clients-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
