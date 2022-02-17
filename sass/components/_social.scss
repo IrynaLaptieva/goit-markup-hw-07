@@ -21,12 +21,12 @@
   transition-property: color, background-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing);
-}
 
-.team-link:hover,
-.team-link:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-light-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-light-color);
+  }
 }
 
 .team-icon {

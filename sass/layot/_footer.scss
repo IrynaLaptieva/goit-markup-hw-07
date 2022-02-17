@@ -25,15 +25,15 @@
   transition-property: color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .mail {
   margin-bottom: 9px;
-}
-
-.footer-contacts-link:hover,
-.footer-contacts-link:focus {
-  color: var(--accent-color);
 }
 
 // Footer Icon
@@ -92,11 +92,11 @@
   transition-property: background-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing);
-}
 
-.footer-icon-link:hover,
-.footer-icon-link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .container .online {
@@ -143,11 +143,11 @@
   transition-property: border-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing);
-}
 
-.online-input:hover,
-.online-input:focus {
-  border-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .online-btn {

@@ -6,6 +6,10 @@
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+
+  & .filter-item + .filter-item {
+    margin-left: 8px;
+  }
 }
 
 .portfolio-link {
@@ -13,20 +17,7 @@
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
-}
 
-.portfolio-filter .filter-item + .filter-item {
-  margin-left: 8px;
-}
-
-.filter-item:hover,
-.filter-item:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.portfolio-link {
   cursor: pointer;
 
   background-color: var(--bgc-team-color);
@@ -44,18 +35,25 @@
   transition-property: box-shadow, color, background-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-light-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+  }
+
+  &.current {
+    color: var(--primary-light-color);
+    background-color: var(--accent-color);
+  }
 }
 
-.portfolio-link:hover,
-.portfolio-link:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-light-color);
+.filter-item:hover,
+.filter-item:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-}
-
-.portfolio-link.current {
-  color: var(--primary-light-color);
-  background-color: var(--accent-color);
 }

@@ -44,11 +44,11 @@
   transition-property: fill;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing);
-}
 
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-  fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 }
 
 .form-field {
@@ -92,12 +92,12 @@
   transition-property: border-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing);
-}
 
-.modal-input:focus,
-.modal-input:hover {
-  border-color: var(--accent-color);
-  cursor: pointer;
+  &:focus,
+  &:hover {
+    border-color: var(--accent-color);
+    cursor: pointer;
+  }
 }
 
 .modal-input:focus + .modal-icon,
@@ -140,12 +140,12 @@ textarea {
   transition-property: border-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing);
-}
 
-.modal-text:hover,
-.modal-text:focus {
-  border-color: var(--accent-color);
-  cursor: pointer;
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+    cursor: pointer;
+  }
 }
 
 .form-field-check {
@@ -173,11 +173,11 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-}
 
-.modal-check-text span:focus,
-.modal-check-text span:hover {
-  border-color: var(--accent-color);
+  &:focus,
+  &:hover {
+    border-color: var(--accent-color);
+  }
 }
 
 .modal-check:checked + .modal-check-text > span {

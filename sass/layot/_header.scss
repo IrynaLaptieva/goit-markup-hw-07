@@ -40,15 +40,15 @@ nav,
   transition-timing-function: var(--timing);
 
   position: relative;
-}
 
-.nav .nav-link:hover,
-.nav .nav-link:focus {
-  color: var(--accent-color);
-}
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 
-.nav .nav-link.current {
-  color: var(--accent-color);
+  &.current {
+    color: var(--accent-color);
+  }
 }
 
 .nav-link.current::after {
@@ -105,9 +105,9 @@ nav,
   transition-property: color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing);
-}
 
-.header-contacts-link:hover,
-.header-contacts-link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }

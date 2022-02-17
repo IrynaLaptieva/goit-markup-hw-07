@@ -11,12 +11,12 @@
   transition-property: color, border-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing);
-}
 
-.clients-link:hover,
-.clients-link:focus {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }
 
 .clients-list {
