@@ -135,11 +135,11 @@ nav,
   align-items: center;
 }
 
-.nav .nav-item:not(:last-child) {
+.nav .nav__nav-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav .nav-link {
+.nav .nav__nav-link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -153,15 +153,15 @@ nav,
   position: relative;
 }
 
-.nav .nav-link:hover, .nav .nav-link:focus {
+.nav .nav__nav-link:hover, .nav .nav__nav-link:focus {
   color: var(--accent-color);
 }
 
-.nav .nav-link.current {
+.nav .nav__nav-link.current {
   color: var(--accent-color);
 }
 
-.nav-link.current::after {
+.nav__nav-link.current::after {
   display: inline-block;
   position: absolute;
   content: "";
@@ -180,7 +180,7 @@ nav,
   justify-content: center;
 }
 
-.header-contacts-item:not(:last-child) {
+.header-contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -202,7 +202,7 @@ nav,
   fill: var(--accent-color);
 }
 
-.header-contacts-link {
+.header-contacts__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -215,7 +215,7 @@ nav,
   transition-timing-function: var(--timing);
 }
 
-.header-contacts-link:hover, .header-contacts-link:focus {
+.header-contacts__link:hover, .header-contacts__link:focus {
   color: var(--accent-color);
 }
 
@@ -320,13 +320,13 @@ nav,
   justify-content: center;
 }
 
-.benefits-icon {
+.benefits-container__icon {
   width: 70px;
   height: 70px;
   background-color: var(--bgc-team-color);
 }
 
-.section-title {
+.benefits-container__title {
   font-weight: 700;
   line-height: 1.43;
   letter-spacing: 0.03em;

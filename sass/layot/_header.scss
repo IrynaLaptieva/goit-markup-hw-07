@@ -21,11 +21,11 @@ nav,
   align-items: center;
 }
 
-.nav .nav-item:not(:last-child) {
+.nav .nav__nav-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav .nav-link {
+.nav .nav__nav-link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -51,7 +51,7 @@ nav,
   }
 }
 
-.nav-link.current::after {
+.nav__nav-link.current::after {
   display: inline-block;
   position: absolute;
   content: "";
@@ -70,7 +70,7 @@ nav,
   justify-content: center;
 }
 
-.header-contacts-item:not(:last-child) {
+.header-contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -92,7 +92,7 @@ nav,
   fill: var(--accent-color);
 }
 
-.header-contacts-link {
+.header-contacts__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
