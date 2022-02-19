@@ -1,4 +1,4 @@
-.clients-link {
+.clients-container__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -19,7 +19,7 @@
   }
 }
 
-.clients-list {
+.clients__list {
   display: flex;
   padding-left: 0;
   margin: 0;

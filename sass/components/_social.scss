@@ -4,11 +4,11 @@
   padding-left: 0;
 }
 
-.team-item + .team-item {
+.soc-team__item + .soc-team__item {
   margin-left: 10px;
 }
 
-.team-link {
+.soc-team__link {
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -29,6 +29,6 @@
   }
 }
 
-.team-icon {
+.soc-team__icon {
   fill: currentColor;
 }
