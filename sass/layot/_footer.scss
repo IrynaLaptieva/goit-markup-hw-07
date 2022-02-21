@@ -48,7 +48,7 @@
   margin-right: 70px;
 }
 
-.container .footer-icon {
+.footer-icon {
   display: flex;
   flex-wrap: wrap;
   width: 206px;
@@ -99,7 +99,7 @@
   }
 }
 
-.container .online {
+.online {
   display: flex;
   flex-wrap: wrap;
   width: 570px;
@@ -148,27 +148,6 @@
   &:focus {
     border-color: var(--accent-color);
   }
-}
-
-.online-btn {
-  position: relative;
-  background-color: var(--accent-color);
-  color: var(--primary-light-color);
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-
-  border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-
-  padding-top: 10px;
-  padding-right: 62px;
-  padding-bottom: 10px;
-  padding-left: 29px;
-  width: 200px;
 }
 
 .online-icon {
